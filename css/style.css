@@ -13,7 +13,7 @@ body {
 
 .inner-wrapper {
 	max-width: 500px;
-	width: 80%;
+	width: 80%
 	margin: 0 auto;
 	padding: 65px 0;
 }
@@ -54,11 +54,11 @@ body {
 /* Text Styles */
 
 h1 {
-	font-size: 5em;
+	font-size: 4em;
 }
 
 h2 {
-	font-size: 4em;
+	font-size: 3em;
 }
 
 h3 {
@@ -78,7 +78,7 @@ h6 {
 }
 
 p {
-	font-size: 1.25em;
+	font-size: 1.75em;
 	color: #495b60;
 }
 
@@ -141,23 +141,23 @@ header > nav ul li a {
 /* Hero Section */
 
 #hero {
-  background: 
+  background:
     linear-gradient(
-      rgba(36,65,75,0.58), 
+      rgba(36,65,75,0.58),
       rgba(36,65,75,0.58)
     ),
-    url('../images/hero_bg.jpg');
+    url('../images/form_bg.jpeg');
 	background-size: cover;
-	text-align: center;
+	text-align: left;
 	color: white;
 }
 
 #hero > .inner-wrapper {
-	max-width: 900px;	
+	max-width: 900px;
 }
 
 #hero h2 {
-	font-weight: 300;
+	font-weight: 200;
 }
 
 #hero p {
@@ -172,7 +172,7 @@ header > nav ul li a {
 	padding: 40px;
 }
 
-#hero .heroPercentage h3, 
+#hero .heroPercentage h3,
 #hero .heroPercentage p {
 	margin: 0;
 }
@@ -200,20 +200,20 @@ header > nav ul li a {
 
 /* Form Section */
 #formSection {
-  background: 
+  background:
     linear-gradient(
-      rgba(36,65,75,0.58), 
+      rgba(36,65,75,0.58),
       rgba(36,65,75,0.58)
     ),
-    url('../images/hero_bg.jpg');
+    url('../images/form_bg.jpeg');
 	background-size: cover;
 	text-align: center;
-	color: white;	
+	color: white;
 }
 
 #formSection .large-inner-wrapper {
 	padding: 65px 0;
-	max-width: 1200px;
+	max-width: 1500px;
 }
 
 #formSection p {
@@ -298,6 +298,8 @@ header > nav ul li a {
 /* Footer */
 
 footer {
+	font-family: serif;
+	font-size: .8em;
 	max-width: 1000px;
 	width: 90%;
 	margin: 0 auto;
