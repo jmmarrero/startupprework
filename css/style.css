@@ -105,13 +105,6 @@ p {
 
 /* Buttons */
 
-.button {
-	color: black;
-	text-decoration: none;
-	font-weight: 600;
-	font-size: 18px;
-}
-
 .buttonsubmit {
     display: inline-block;
     text-align: center;
@@ -145,7 +138,7 @@ p {
 }
 
 
-.buttonintouch {
+.buttonintouchblue {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
@@ -161,8 +154,8 @@ p {
     text-decoration: none;
 }
 
-.buttonintouch:hover,
-.buttonintouch:focus {
+.buttonintouchblue:hover,
+.buttonintouchblue:focus {
     border: 0px solid #428a9e;
     background: #67d7f6;
     background: -webkit-gradient(linear, left top, left bottom, from(#67d7f6), to(#408497));
@@ -172,7 +165,7 @@ p {
     text-decoration: none;
 }
 
-.buttonintouch:active {
+.buttonintouchblue:active {
     background: #356e7e;
     background: -webkit-gradient(linear, left top, left bottom, from(#356e7e), to(#356e7e));
     background: -moz-linear-gradient(top, #356e7e, #356e7e);
@@ -262,9 +255,9 @@ header > nav ul li a {
 	font-size: 18px;
 }
 
-/* Hero Section */
+/* form Section */
 
-#hero {
+#form {
   background:
     linear-gradient(
       rgba(159, 67, 67, 1),
@@ -276,19 +269,19 @@ header > nav ul li a {
 	color: white;
 }
 
-#hero > .inner-wrapper {
+#form > .inner-wrapper {
 	max-width: 900px;
 }
 
-#hero h2 {
+#form h2 {
 	font-weight: 300;
 }
 
-#hero p {
+#form p {
 	color: white;
 }
 
-#hero .heroPercentage {
+#form .heroPercentage {
 	display: inline-block;
 	border: 1px solid white;
 	margin: 0 auto;
@@ -296,8 +289,8 @@ header > nav ul li a {
 	padding: 40px;
 }
 
-#hero .heroPercentage h3,
-#hero .heroPercentage p {
+#form .heroPercentage h3,
+#form .heroPercentage p {
 	margin: 0;
 }
 
@@ -323,6 +316,7 @@ header > nav ul li a {
 }
 
 /* Form Section */
+
 #formSection {
   background:
     linear-gradient(
@@ -384,64 +378,17 @@ header > nav ul li a {
 	font-style: italic;
 }
 
-#formSectioncontact {
-  background:
-    linear-gradient(
-      rgba(36,65,75,0.58),
-      rgba(36,65,75,0.58)
-    ),
-    url('../images/McCree.png');
-	background-size: contain;;
-	text-align: center;
-	color: white;
+#formSection label {
+	font-size: 1.10em;
 }
 
+#formSection input {
+	font-size: 1.025em;
+}
 
-	#formSectioncontact p {
-		color: white;
-	}
+/* About Page */
 
-	#formSectioncontact form {
-		padding: 30px;
-		background-color: rgb(159, 67, 67);
-		max-width: 250px;
-		margin: 0 auto;
-		text-align: right;
-	}
-
-	#formSectioncontact form > section {
-		padding: 10px;
-	}
-
-	#formSectioncontact form h4,
-	#formSectioncontact form p {
-		text-align: center;
-		margin-bottom: 0.3em;
-	}
-
-	#formSectioncontact form h4 {
-		margin: 0.3em 0;
-	}
-
-	#formSectioncontact form p {
-		margin-bottom: 25px;
-	}
-
-	#formSectioncontact .proofPoints {
-		max-width: 300px;
-		margin: 0 auto;
-	}
-
-	#formSectioncontact .proofPoint {
-		margin: 50px 0;
-	}
-
-	#formSectioncontact .proofPoint h4 {
-		font-weight: 300;
-		font-style: italic;
-	}
-
-	#formSectionabout {
+	#about {
 	  background:
 	    linear-gradient(
 	      rgba(36,65,75,0.58),
@@ -453,16 +400,16 @@ header > nav ul li a {
 		color: white;
 	}
 
-	#formSectionabout .large-inner-wrapper {
+	#about .large-inner-wrapper {
 		padding: 50px 0;
 		max-width: 1500px;
 	}
 
-	#formSectionabout p {
+	#about p {
 		color: white;
 	}
 
-	#formSectionabout form {
+	#about form {
 		padding: 20px;
 		background-color: rgb(159, 67, 67);
 		max-width: 275px;
@@ -470,34 +417,34 @@ header > nav ul li a {
 		text-align: right;
 	}
 
-	#formSectionabout form > section {
+	#about form > section {
 		padding: 10px;
 	}
 
-	#formSectionabout form h4,
-	#formSectionabout form p {
+	#about form h4,
+	#about form p {
 		text-align: center;
 		margin-bottom: 0.3em;
 	}
 
-	#formSectionabout form h4 {
+	#about form h4 {
 		margin: 0.3em 0;
 	}
 
-	#formSectionabout form p {
+	#about form p {
 		margin-bottom: 25px;
 	}
 
-	#formSectionabout .proofPoints {
+	#about .proofPoints {
 		max-width: 300px;
 		margin: 0 auto;
 	}
 
-	#formSectionabout .proofPoint {
+	#about .proofPoint {
 		margin: 50px 0;
 	}
 
-	#formSectionabout .proofPoint h4 {
+	#about .proofPoint h4 {
 		font-weight: 300;
 		font-style: italic;
 	}
@@ -519,6 +466,28 @@ header > nav ul li a {
 
 /* Contact Us Page */
 
+#contactUs {
+  background:
+    linear-gradient(
+      rgba(36,65,75,0.58),
+      rgba(36,65,75,0.58)
+    ),
+    url('../images/McCree.png');
+	background-size: cover;
+	text-align: right;
+	color: white;
+}
+
+#contactUs form {
+	font-size: 1.25em;
+}
+
+
+#contactUs input {
+
+	font-size: 1.25em;
+}
+
 #contactUs form input,
 #contactUs form textarea {
 	width: 100%;
@@ -526,6 +495,7 @@ header > nav ul li a {
 
 #contactUs form label {
 	display: block;
+	text-align: left;
 	margin-bottom: 0.2em;
 }
 
@@ -534,7 +504,8 @@ header > nav ul li a {
 }
 
 #contactUs h2 {
-	margin-top: 0;
+	margin-top: 2em;
+	text-align: center;
 }
 
 /* Footer */
